@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>formulario</title>
+</head>
+<body>
+<h1>Contactenos</h1>
+<h2>Realice su consulta que, a la brevedad,<br>nos pondremos en contacto con usted para <br>responderle:</h2>
+
+    <form action="https://formsubmit.co/eltomi308@gmail.com" method="POST">
+
+
+       
+
+        <label for="notificaciones">recibir informacion y notificaciones</label>
+        <input type="checkbox" name="notificaciones" id="notificaciones" checked value="acepto recibir notificaciones" >
+        <label for="turno">selecciona un turno</label>
+        <label for="turnoM">Mañana</label>
+        <input type="radio" name="turno" id="selecciona un turno" value="mañana">
+        
+        <label for="turnoT">Tarde</label>
+        <input type="radio" name="turno" id="selecciona un turno" value="tarde">
+        <label for="turnoN">Noche</label>
+        <input type="radio" name="turno" id="selecciona un turno" value="noche">
+
+        
+        <input type="text" name="nombre" placeholder="Nombre Completo" maxlength="70"  required >
+
+        
+
+        
+
+        <input type="email" name="email" id="email" placeholder="Correo Electronico" maxlength="50" required>
+
+        
+       
+
+        
+        <input type="date" name="fecha_de_nacimiento" id="fecha" max="2024-05-09"  >
+
+
+        <textarea name="comentarios" id="comentarios" cols="50" rows="50" placeholder="Dejanos tus Comentarios y Sugerencias (max. 500 caracteres)" maxlength="500"></textarea>
+        <input type="submit" value="Enviar" maxlength="500">
+        <input type="reset" value="limpiar" maxlength="500">
+    </form>
+
+</body>
+</html>
